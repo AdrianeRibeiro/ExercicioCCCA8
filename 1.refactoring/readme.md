@@ -16,34 +16,34 @@
 # Smells
 
 1. Nome estranho
-- Renomear variável, método, função, classe, arquivo
+> Renomear variável, método, função, classe, arquivo
 
 2. Linha em branco
-- Apagar linha em braco
-- Extrair o método
+> Apagar linha em braco
+> Extrair o método
 
 3. Comentários
-- Substituir por variável/método explicativa e apagar comentário.
+> Substituir por variável/método explicativa e apagar comentário.
 
 4. Condições confusas e aninhadas
-- Inverter as condições ou introduzir cláusulas guarda (early return)
-- Consolidar condição
-- Introduzir ternário
-- Extrair Condição
+> Inverter as condições ou introduzir cláusulas guarda (early return)
+> Consolidar condição
+> Introduzir ternário
+> Extrair Condição
 
 5. Números mágicos
-- Extrair constantes explicativas
+> Extrair constantes explicativas
 
 6. Tratamento inadequado de exceptions
 
 7. Excesso de parâmetros
-- Introduzir instâncias
+> Introduzir instâncias
 
 8. Métodos grandes
-- Extrair método
+> Extrair método
 
 9. Classes grandes
-- Extrair classe -> Entra o design
+> Extrair classe -> Entra o design
 
 # Patters
 
