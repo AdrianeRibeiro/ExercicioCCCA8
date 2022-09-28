@@ -2,11 +2,10 @@
 
 # Ambiente
 
-- yarn init -y
-- yarn add typescript jest @types/jest ts-node ts-jest
-- npx tsc --init
-  - npx executar alguma coisa que está criada no nodejs
-- npx ts-jest config:init
+- ```yarn init -y```
+- ```yarn add typescript jest @types/jest ts-node ts-jest```
+- ```npx tsc --init```
+- ```npx ts-jest config:init```
 
 # Refatoração
 
@@ -59,6 +58,3 @@
 - v2: refatoramento
 - v3: design de código
 - v4: strategy, factory and chain of responsability
-
-
-10 minutos
