@@ -19,6 +19,9 @@
 
 > Ideal é ter combinação de testes.
 
+![image](https://user-images.githubusercontent.com/52608531/193421125-c7282620-50a2-4e80-be49-9da0eaf37e85.png)
+
+
 # First
 
 - Fast: os testes devem rodar rápido.
