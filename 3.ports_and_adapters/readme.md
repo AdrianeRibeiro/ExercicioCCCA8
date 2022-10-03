@@ -30,3 +30,7 @@
 
 - Stubs: objetos que retornam respostas prontas, definidas para um determinado teste, por questão de performance ou segurança.
   - Exemplo: testar um método que executa a criação de um pedido e precisa pegar a cotação do dólar.
+
+- Spy: analisa se algo foi chamado. Log de tudo o que o componenente que está sendo testado está fazendo.
+
+- Mock: similar ao stub e spy. Seta expectativa no mock object.

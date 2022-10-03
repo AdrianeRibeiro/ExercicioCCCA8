@@ -15,6 +15,7 @@ export default class PurchaseRepositoryDatabase implements PurchaseRepository {
       purchases.push(new Purchase(purchaseData.card_number, parseFloat(purchaseData.amount), purchaseData.currency))
     }
 
+    await connection.$pool.end()
     return purchases
   }
 }

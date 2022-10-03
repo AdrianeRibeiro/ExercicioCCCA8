@@ -4,7 +4,7 @@ const app = express()
 
 app.get("/currencies", async function(req, res) {
   res.json({
-    amount: Math.floor(Math.random() * 10)
+    amount: 3 //Math.floor(Math.random() * 10)
   })
 })
 

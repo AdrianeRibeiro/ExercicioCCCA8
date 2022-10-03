@@ -5,10 +5,10 @@ import CurrencyGatewayHttp from "./CurrencyGatewayHttp"
 const app = express()
 
 app.get("/cards/:cardNumber/invoices", async function(req, res) {
-  const purchaseRepository = new PurchaseRepositoryDatabase()
-  const currencyGateway = new CurrencyGatewayHttp()
-  const invoiceService = new InvoiceServiceImpl(purchaseRepository, currencyGateway)
-  const total = await invoiceService.calculateInvoice(req.params.cardNumber, 9, 2022)
+  //const purchaseRepository = new PurchaseRepositoryDatabase()
+  //const currencyGateway = new CurrencyGatewayHttp()
+  const invoiceService = new InvoiceServiceImpl()
+  const total = await invoiceService.calculateInvoice(req.params.cardNumber)
 
   res.send({
     total
