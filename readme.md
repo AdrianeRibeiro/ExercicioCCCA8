@@ -10,3 +10,8 @@
 - Design Patterns - Strategy, Factory e Chain of Responsibility
 - Testes (Test-Driven Development)
 - Code Smells e Técnicas de Refactoring
+
+# Aula 3
+- Ports and Adapters
+- Testes (Test Patterns - Stub, Spy, Mock e Fake)
+- Clean Architecture

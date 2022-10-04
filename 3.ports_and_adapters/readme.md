@@ -31,6 +31,8 @@
 - Stubs: objetos que retornam respostas prontas, definidas para um determinado teste, por questão de performance ou segurança.
   - Exemplo: testar um método que executa a criação de um pedido e precisa pegar a cotação do dólar.
 
-- Spy: analisa se algo foi chamado. Log de tudo o que o componenente que está sendo testado está fazendo.
+- Spy: Objetos que "espionam" a execução do método e armazenam os resultados para verificação posterior. Exemplo: quando eu executar o método fazer pedido preciso saber se o método envia email foi invocado internamente e com quais parâmetros.
 
-- Mock: similar ao stub e spy. Seta expectativa no mock object.
+- Mock: similar ao stub e spy. Seta expectativa no mock object. Permitem que você diga exatamente o que quer que ele faça e o teste vai quebrar se isso não acontecer.
+
+- Fake: Objetos que tem implementações que simulam o funcionamento da instância real, que seria utilizada em produção (exemplo: uma base de dados em memória).
