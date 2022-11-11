@@ -1,17 +1,12 @@
 # Conteúdo do curso
 > Microservices utilizando TypeScript com Clean Code, Refactoring, TDD, OO, Ports and Adapters, Clean Architecture, Domain-Driven Design, Design Patterns, SOLID, Event-Driven Architecture, CQRS.
 
-# Aula 1
-- Clean Code
-- Refactoring
-- Code Smells e Técnicas de Refactoring
+# [Aula 1](https://github.com/AdrianeRibeiro/ExercicioCCCA8/tree/main/1.refactoring)
 
-# Aula 2
-- Design Patterns - Strategy, Factory e Chain of Responsibility
-- Testes (Test-Driven Development)
-- Code Smells e Técnicas de Refactoring
+# [Aula 2](https://github.com/AdrianeRibeiro/ExercicioCCCA8/tree/main/2.refactoring)
 
-# Aula 3
-- Ports and Adapters
-- Testes (Test Patterns - Stub, Spy, Mock e Fake)
-- Clean Architecture
+# [Aula 3](https://github.com/AdrianeRibeiro/ExercicioCCCA8/tree/main/3.ports_and_adapters)
+
+# [Aula 4](https://github.com/AdrianeRibeiro/ExercicioCCCA8/tree/main/4.CA)
+
+# [Aula 6](https://github.com/AdrianeRibeiro/ExercicioCCCA8/tree/main/6.solid)
