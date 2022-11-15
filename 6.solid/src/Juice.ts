@@ -4,8 +4,4 @@ export default class Juice extends Item {
   constructor(readonly description: string, readonly price: number) {
     super("Juice", description, price)
   }
-
-  calculateTax(): number {
-    return this.price * 0.1
-  }
 }

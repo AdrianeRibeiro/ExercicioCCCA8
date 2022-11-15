@@ -1,11 +1,12 @@
 import Item from "./Item";
+import TaxItem from "./TaxItem";
 
-export default class Gin extends Item {
+export default class Gin extends TaxItem {
   constructor(readonly description: string, readonly price: number) {
     super("Gin", description, price)
   }
 
-  calculateTax(): number {
-    return this.price * 0.2
+  getTax(): number {
+    return 0.2
   }
 }
