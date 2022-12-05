@@ -18,4 +18,3 @@
 
 - É um modelo que tem como objetivo o desacoplamento entre as regras de negócio da aplicação e os recursos externos como frameworks e banco de dados.
 - O centro é o UseCase.
-- 
