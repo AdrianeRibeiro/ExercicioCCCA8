@@ -2,8 +2,12 @@
 
 - Utiliza eventos para disparar e se comunicar com serviços desacoplados e é cada vez mais comum, principalmente em um ambiente de microsserviços.
 
-- Evento:
-  
+<br>
+
+> Evento
+
+<br>
+
   -  fato que acontece no domínio. 
   -  gatilho para a execução de regras de negócio.
   -  baixo acoplamento.
